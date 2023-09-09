@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Chat Context Provider",
+    "name_for_model": "chatcontextprovider",
+    "description_for_human": "Analyze GitHub projects to provide contextual information. Extracts file structures and, for Rust projects, details about structs and traits.",
+    "description_for_model": "Help the user understand GitHub projects by analyzing their structure. For Rust projects, provide insights into structs and traits.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:8000/openapi.yaml"
+    },
+    "logo_url": "http://localhost:8000/logo.png",
+    "contact_email": "chriamue@gmail.com",
+    "legal_info_url": "http://chatcontextprovider.chriamue.de/legal"
+}
